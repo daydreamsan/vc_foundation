@@ -7,6 +7,7 @@
 //
 
 #import "VCFKViewController.h"
+#import "VCFKFoundation.h"
 
 @interface VCFKViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIButton *btn = [UIButton defaultButtonWithTitle:@"这是一个气愤的button"];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning

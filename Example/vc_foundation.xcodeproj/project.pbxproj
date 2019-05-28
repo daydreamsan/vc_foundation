@@ -67,6 +67,7 @@
 		BAFF23E50FDAC92FA9F417DA /* Pods-vc_foundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vc_foundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-vc_foundation_Example/Pods-vc_foundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE9B2AEA85FA890EE10D5859 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F369329CC65CB57585939515 /* vc_foundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vc_foundation.podspec; path = ../vc_foundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3D1040F229D224500CE624C /* VCFKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VCFKFoundation.h; path = ../../vc_foundation/Classes/VCFKFoundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +135,7 @@
 			children = (
 				6003F59C195388D20070C39A /* VCFKAppDelegate.h */,
 				6003F59D195388D20070C39A /* VCFKAppDelegate.m */,
+				F3D1040F229D224500CE624C /* VCFKFoundation.h */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* VCFKViewController.h */,
 				6003F5A6195388D20070C39A /* VCFKViewController.m */,
