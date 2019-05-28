@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+维词APP基础配置工程.
                        DESC
 
   s.homepage         = 'https://github.com/daydreamsan/vc_foundation'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'vc_foundation' => ['vc_foundation/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit'
+   s.dependency 'YYKit', '~> 1.0.9'
 end
