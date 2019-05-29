@@ -33,4 +33,6 @@
 #import "WCSegment.h"
 #import "WCSearchBar.h"
 #import "PopoverView.h"
+#import "SVProgressHUD+WCExtention.h"
+
 #endif /* VCFKFoundation_h */
