@@ -1,7 +1,7 @@
 PODS:
   - Masonry (1.0.2)
   - SVProgressHUD (2.2.5)
-  - vc_foundation (0.2.4):
+  - vc_foundation (0.2.6):
     - Masonry (~> 1.0.2)
     - SVProgressHUD (~> 2.2.5)
     - YYKit (~> 1.0.9)
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  vc_foundation: 7eee7090d4c44b0d547293e4ba9a11737d668ae2
+  vc_foundation: 403bda8fd9ab349d4598f69ec364293526cb7dd0
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: e329345ea59685e8738e9d5c8b7c053f935b07bc
