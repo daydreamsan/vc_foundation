@@ -1,5 +1,9 @@
 PODS:
-  - vc_foundation (0.2.0):
+  - Masonry (1.0.2)
+  - SVProgressHUD (2.2.5)
+  - vc_foundation (0.2.1):
+    - Masonry (~> 1.0.2)
+    - SVProgressHUD (~> 2.2.5)
     - YYKit (~> 1.0.9)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -10,6 +14,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SVProgressHUD
     - YYKit
 
 EXTERNAL SOURCES:
@@ -17,7 +23,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  vc_foundation: 2c295261f98ca33c014cce8f239c01b8c8532e83
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  vc_foundation: b059031b2d9b2c825372259fc07e3241289c8c6a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: e329345ea59685e8738e9d5c8b7c053f935b07bc

@@ -39,4 +39,6 @@ Pod::Spec.new do |s|
    s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'YYKit', '~> 1.0.9'
+   s.dependency 'Masonry', '~> 1.0.2'
+   s.dependency 'SVProgressHUD', '~> 2.2.5'
 end
