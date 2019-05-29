@@ -8,8 +8,11 @@
 
 #import "VCFKViewController.h"
 #import "VCFKFoundation.h"
+#import <WCMediaPlayer/QTMediaPlayer.h>
 
 @interface VCFKViewController ()
+
+@property (nonatomic, strong) QTMediaPlayer *player;
 
 @end
 
@@ -30,5 +33,12 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [SVProgressHUD showSuccess:@"hello world"];
+    
+    QTMediaItem *item = [[QTMediaItem alloc] init];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"15.mp3" ofType:nil];
+    item.URL = [NSURL fileURLWithPath:path];
+    self.player = [[QTMediaPlayer alloc] initWithPlayList:@[item]];
+    [self.player play];
 }
+
 @end

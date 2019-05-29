@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B5621290FD8B8F9A7AE0A3FF /* Pods_vc_foundation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB17DF11A8762F5F487128D /* Pods_vc_foundation_Tests.framework */; };
+		F38A0268229E84070063A682 /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F38A0267229E84070063A682 /* 15.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		BAFF23E50FDAC92FA9F417DA /* Pods-vc_foundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vc_foundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-vc_foundation_Example/Pods-vc_foundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE9B2AEA85FA890EE10D5859 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F369329CC65CB57585939515 /* vc_foundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vc_foundation.podspec; path = ../vc_foundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F38A0267229E84070063A682 /* 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15.mp3; sourceTree = "<group>"; };
 		F3D1040F229D224500CE624C /* VCFKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VCFKFoundation.h; path = ../../vc_foundation/Classes/VCFKFoundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* VCFKViewController.h */,
 				6003F5A6195388D20070C39A /* VCFKViewController.m */,
+				F38A0267229E84070063A682 /* 15.mp3 */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38A0268229E84070063A682 /* 15.mp3 in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -348,15 +352,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-vc_foundation_Example/Pods-vc_foundation_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FreeStreamer/FreeStreamer.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/WCMediaPlayer/WCMediaPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/vc_foundation/vc_foundation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FreeStreamer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCMediaPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/vc_foundation.framework",
 			);

@@ -1,10 +1,16 @@
 PODS:
+  - FreeStreamer (3.8.3):
+    - Reachability (~> 3.0)
   - Masonry (1.0.2)
+  - Reachability (3.2)
   - SVProgressHUD (2.2.5)
-  - vc_foundation (0.2.6):
+  - vc_foundation (0.2.7):
     - Masonry (~> 1.0.2)
     - SVProgressHUD (~> 2.2.5)
+    - WCMediaPlayer
     - YYKit (~> 1.0.9)
+  - WCMediaPlayer (0.0.1):
+    - FreeStreamer (~> 3.8.3)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -14,8 +20,11 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FreeStreamer
     - Masonry
+    - Reachability
     - SVProgressHUD
+    - WCMediaPlayer
     - YYKit
 
 EXTERNAL SOURCES:
@@ -23,9 +32,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  vc_foundation: 403bda8fd9ab349d4598f69ec364293526cb7dd0
+  vc_foundation: 908a06169d7b8022b1c9c727892f9a83f4b36d7a
+  WCMediaPlayer: 9e1dd19d936b51d3e8750f041f98c0534144a0f7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: e329345ea59685e8738e9d5c8b7c053f935b07bc
