@@ -1,5 +1,5 @@
 PODS:
-  - vc_foundation (0.1.0):
+  - vc_foundation (0.2.0):
     - YYKit (~> 1.0.9)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  vc_foundation: 4e72108ce9b8b1d108bf968c56300ea0934cfeb4
+  vc_foundation: 2c295261f98ca33c014cce8f239c01b8c8532e83
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: e329345ea59685e8738e9d5c8b7c053f935b07bc
