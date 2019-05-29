@@ -28,5 +28,9 @@
 #import "UserDefaultsUtility.h"
 #import "ResourceManager.h"
 #import <Masonry/Masonry.h>
-
+#import "WCTextField.h"
+#import "WCButton.h"
+#import "WCSegment.h"
+#import "WCSearchBar.h"
+#import "Popover/PopoverView.h"
 #endif /* VCFKFoundation_h */
