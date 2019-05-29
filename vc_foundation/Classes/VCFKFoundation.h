@@ -32,5 +32,5 @@
 #import "WCButton.h"
 #import "WCSegment.h"
 #import "WCSearchBar.h"
-#import "Popover/PopoverView.h"
+#import "PopoverView.h"
 #endif /* VCFKFoundation_h */
