@@ -26,7 +26,7 @@
 #import "VCFKBase.h"
 #import "Env.h"
 #import "UserDefaultsUtility.h"
-#import "./Utils/ResourceManager.h"
+#import "ResourceManager.h"
 #import <Masonry/Masonry.h>
 
 #endif /* VCFKFoundation_h */
