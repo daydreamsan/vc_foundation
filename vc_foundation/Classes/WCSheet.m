@@ -7,7 +7,7 @@
 //
 
 #import "WCSheet.h"
-
+#import "VCFKFoundation.h"
 
 @interface WCSheet()
 
@@ -78,31 +78,6 @@
         self.bgView.alpha = 1.f;
         self.bottom = zView.bottom;
     }];
-/*
-    UIInterfaceOrientation direction = [UIApplication sharedApplication].statusBarOrientation;
-    switch (direction) {
-        case UIInterfaceOrientationPortraitUpsideDown: case UIInterfaceOrientationPortrait: {
-                    }
-            break;
-        case UIInterfaceOrientationLandscapeRight: {
-            self.left = -zView.width;
-            [UIView animateWithDuration:0.2 animations:^{
-                self.bgView.alpha = 1.f;
-                self.left = 0;
-            }];
-        }
-            break;
-        case UIInterfaceOrientationLandscapeLeft: {
-            self.right = zView.width;
-            [UIView animateWithDuration:0.2 animations:^{
-                self.bgView.alpha = 1.f;
-                self.right = 0;
-            }];
-        }
-        default:
-            break;
-    }
- */
 }
 
 - (void)dismiss {

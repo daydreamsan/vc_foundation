@@ -7,6 +7,7 @@
 //
 
 #import "WCTabBar.h"
+#import "VCFKFoundation.h"
 
 static NSInteger kWCTabBarBaseTag = 10000;
 @interface WCTabBar ()
@@ -35,14 +36,6 @@ static NSInteger kWCTabBarBaseTag = 10000;
     [self.indicator makeCorner:1.5];
     self.indicator.backgroundColor = kMainTintColor;
     [self addSubview:self.indicator];
-//    self.gradientLayer = [CAGradientLayer layer];
-//    id clearColor = (__bridge id)[RGB_A(0XFFFFFF, 0) CGColor];
-//    id whiteColor = (__bridge id)[RGB_A(0x0, 0.04) CGColor];
-//    self.gradientLayer.colors = @[clearColor, whiteColor];
-//    self.gradientLayer.locations = @[@0.3, @0.6];
-//    self.gradientLayer.startPoint = CGPointMake(0, 0);
-//    self.gradientLayer.endPoint = CGPointMake(0, 1);
-//    [self.layer addSublayer:self.gradientLayer];
 }
 
 - (void)layoutSubviews {

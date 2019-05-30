@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VCFKFoundation.h"
 
 IB_DESIGNABLE
 @interface WCVerticalButton : UIControl

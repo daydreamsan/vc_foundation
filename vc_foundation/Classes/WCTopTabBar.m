@@ -7,6 +7,7 @@
 //
 
 #import "WCTopTabBar.h"
+#import "VCFKFoundation.h"
 
 @implementation WCTopTabBar
 

@@ -7,6 +7,7 @@
 //
 
 #import "WCVerticalButton.h"
+#import "VCFKFoundation.h"
 
 @interface WCVerticalButton ()
 

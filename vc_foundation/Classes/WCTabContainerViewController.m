@@ -8,6 +8,7 @@
 
 #import "WCTabContainerViewController.h"
 #import "WCTabBar.h"
+#import "VCFKFoundation.h"
 
 @interface WCTabContainerViewController ()<WCTabBarDelegate>
 

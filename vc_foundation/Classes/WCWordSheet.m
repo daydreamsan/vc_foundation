@@ -7,6 +7,7 @@
 //
 
 #import "WCWordSheet.h"
+#import "VCFKFoundation.h"
 
 #define kWCWSEnFont(x)    [UIFont fontWithName:@"TimesNewRomanPSMT" size:(x)]
 #define kWCWSCnFont(x)    [UIFont fontWithName:@"Heiti SC" size:(x)]

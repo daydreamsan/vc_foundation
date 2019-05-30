@@ -7,7 +7,6 @@
 //
 
 #import "WCSheet.h"
-#import "VCFKFoundation.h"
 
 UIKIT_EXTERN NSString *WCWordSheetTitleKey;
 UIKIT_EXTERN NSString *WCWordSheetDetailKey;
