@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'vc_foundation'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = 'A short description of vc_foundation.'
 
 # This description is used to generate tags and improve search results.
@@ -42,4 +42,5 @@ Pod::Spec.new do |s|
    s.dependency 'Masonry', '~> 1.0.2'
    s.dependency 'SVProgressHUD', '~> 2.2.5'
    s.dependency 'WCMediaPlayer'
+   s.dependency 'AFNetworking', '~> 3.2.1'
 end

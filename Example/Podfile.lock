@@ -1,10 +1,26 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - FreeStreamer (3.8.3):
     - Reachability (~> 3.0)
   - Masonry (1.0.2)
   - Reachability (3.2)
   - SVProgressHUD (2.2.5)
-  - vc_foundation (0.2.7):
+  - vc_foundation (0.2.8):
+    - AFNetworking (~> 3.2.1)
     - Masonry (~> 1.0.2)
     - SVProgressHUD (~> 2.2.5)
     - WCMediaPlayer
@@ -20,6 +36,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - FreeStreamer
     - Masonry
     - Reachability
@@ -32,11 +49,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  vc_foundation: 908a06169d7b8022b1c9c727892f9a83f4b36d7a
+  vc_foundation: 7c9d144ed7a0d8bacf904a955c7544e555b3faf6
   WCMediaPlayer: 9e1dd19d936b51d3e8750f041f98c0534144a0f7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
