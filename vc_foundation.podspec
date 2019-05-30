@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'vc_foundation' => ['vc_foundation/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'YYKit', '~> 1.0.9'
    s.dependency 'Masonry', '~> 1.0.2'

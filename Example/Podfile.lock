@@ -20,7 +20,7 @@ PODS:
   - MJRefresh (3.1.14.1)
   - Reachability (3.2)
   - SVProgressHUD (2.2.5)
-  - vc_foundation (0.2.12):
+  - vc_foundation (0.2.13):
     - AFNetworking (~> 3.2.1)
     - Masonry (~> 1.0.2)
     - MJRefresh (~> 3.1.14.1)
@@ -58,7 +58,7 @@ SPEC CHECKSUMS:
   MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  vc_foundation: 5d5a17eab2da1817b858750c0e9bc7da6855290a
+  vc_foundation: c76de144a9f518862ae1240dba7500f006d925d7
   WCMediaPlayer: 9e1dd19d936b51d3e8750f041f98c0534144a0f7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
