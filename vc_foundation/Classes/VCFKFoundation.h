@@ -34,7 +34,7 @@
 #import "WCSearchBar.h"
 #import "PopoverView.h"
 #import "SVProgressHUD+WCExtention.h"
-#import "MJRefresh.h"
+#import <MJRefresh/MJRefresh.h>
 #import "WCPhotoGroupView.h"
 #import "WCTopTabBar.h"
 #import "WCTabBar.h"
