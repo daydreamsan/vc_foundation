@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCFKFoundation.h"
 
 @class WCTopTabBar;
 

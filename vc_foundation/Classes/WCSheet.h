@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCFKFoundation.h"
 
 #define kWCScreenWidth      ([UIScreen mainScreen].bounds.size.width)
 #define kWCScreenHeight     ([UIScreen mainScreen].bounds.size.height)
