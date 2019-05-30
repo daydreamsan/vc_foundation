@@ -17,11 +17,13 @@ PODS:
   - FreeStreamer (3.8.3):
     - Reachability (~> 3.0)
   - Masonry (1.0.2)
+  - MJRefresh (3.1.14.1)
   - Reachability (3.2)
   - SVProgressHUD (2.2.5)
-  - vc_foundation (0.2.10):
+  - vc_foundation (0.2.11):
     - AFNetworking (~> 3.2.1)
     - Masonry (~> 1.0.2)
+    - MJRefresh (~> 3.1.14.1)
     - SVProgressHUD (~> 2.2.5)
     - WCMediaPlayer
     - YYKit (~> 1.0.9)
@@ -39,6 +41,7 @@ SPEC REPOS:
     - AFNetworking
     - FreeStreamer
     - Masonry
+    - MJRefresh
     - Reachability
     - SVProgressHUD
     - WCMediaPlayer
@@ -52,9 +55,10 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  vc_foundation: d83629d5be45c5a703b7299b55ef96aad29b3807
+  vc_foundation: 8c0feca357ef5d1ca09fffacd374683d4f9754f2
   WCMediaPlayer: 9e1dd19d936b51d3e8750f041f98c0534144a0f7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
