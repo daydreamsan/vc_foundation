@@ -7,7 +7,7 @@
 //
 
 #import "WCDownloadSessionManager.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface WCDownloadSessionManager ()
 

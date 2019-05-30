@@ -9,6 +9,7 @@
 #import "VCFKViewController.h"
 #import "VCFKFoundation.h"
 #import <WCMediaPlayer/QTMediaPlayer.h>
+#import <Networking.h>
 
 @interface VCFKViewController ()
 
@@ -39,6 +40,12 @@
     item.URL = [NSURL fileURLWithPath:path];
     self.player = [[QTMediaPlayer alloc] initWithPlayList:@[item]];
     [self.player play];
+    
+    [[Networking networking] GET:@"https://www.baidu.com" parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSLog(@"resp: %@", responseObject);
+    } failure:^(NSURLSessionDataTask *task, NSError *e) {
+        NSLog(@"fail: %@", e);
+    }];
 }
 
 @end
