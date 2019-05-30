@@ -34,5 +34,12 @@
 #import "WCSearchBar.h"
 #import "PopoverView.h"
 #import "SVProgressHUD+WCExtention.h"
+#import "MJRefresh.h"
+#import "WCPhotoGroupView.h"
+#import "WCTopTabBar.h"
+#import "WCTabBar.h"
+#import "WCTabContainerViewController.h"
+#import "WCSheet.h"
+#import "WCWordSheet.h"
 
 #endif /* VCFKFoundation_h */
