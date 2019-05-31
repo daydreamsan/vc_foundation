@@ -44,4 +44,6 @@ Pod::Spec.new do |s|
    s.dependency 'WCMediaPlayer'
    s.dependency 'AFNetworking', '~> 3.2.1'
    s.dependency 'MJRefresh', '~> 3.1.14.1'
+   s.dependency 'SSZipArchive', '~> 2.1.2'
+   s.dependency 'iCarousel', '~> 1.8.3'
 end
