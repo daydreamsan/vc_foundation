@@ -153,6 +153,24 @@ static inline NSUserDefaults *user_defaults() {
     return [NSUserDefaults standardUserDefaults];
 }
 
++ (NSInteger)defaultDayWordCountLimit {
+    NSInteger cnt = [kUserDefaults integerForKey:UDDefaultDayWordCountLimit];
+    if (!cnt) {
+        [self setDefaultDayWordCountLimit:cnt];
+    }
+    return cnt ?: 5;
+}
++ (void)setDefaultDayWordCountLimit:(NSInteger)limit {
+    WCSYNC([kUserDefaults setInteger:limit?:5 forKey:UDDefaultDayWordCountLimit]);
+}
+
++ (BOOL)hasActivitionGoldSentence {
+    NSDictionary *activitionInfos = [UserDefaultsUtility hasPackageActivition];
+    BOOL hasPurchase = [[activitionInfos objectForKey: @"2"] boolValue];
+    BOOL hasActivity = [UserDefaultsUtility hasActivation];
+    return (hasActivity || hasPurchase);
+}
+
 + (NSString *)session {
     NSString *session = [kUserDefaults objectForKey:UDSession];
     if (session.length) {
