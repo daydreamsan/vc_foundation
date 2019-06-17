@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'vc_foundation'
-  s.version          = '0.2.13'
+  s.version          = '0.2.14'
   s.summary          = 'A short description of vc_foundation.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/daydreamsan/vc_foundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'vc_foundation/Classes/**/*'
   
